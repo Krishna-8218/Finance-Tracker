@@ -178,7 +178,7 @@ class MainWindow(QMainWindow):
             descriptions = [item[0] for item in training_data]
             categories = [item[1] for item in training_data]
 
-            # Train the AI model
+            
             self.ai_categorizer.train(descriptions, categories)
                 
         except (FileNotFoundError, pd.errors.EmptyDataError) as e:
