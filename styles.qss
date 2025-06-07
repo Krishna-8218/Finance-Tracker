@@ -1,0 +1,14 @@
+#DashboardPage {
+    background-image: url("DashImg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+/* Optional: blur effect (only if you want via CSS) */
+/* PySide6 QSS doesn't support real blur filter natively yet, but we simulate using transparent colors */
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
