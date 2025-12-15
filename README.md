@@ -9,7 +9,7 @@ A Python + PySide6 desktop application that helps students track expenses, visua
 - Transaction history
 - CSV-based data storage
 
-  ## Tech Stack
+## Tech Stack
 - Python
 - PySide6
 - scikit-learn
