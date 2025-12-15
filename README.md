@@ -1,4 +1,4 @@
-#Finance-Tracker
+# Finance-Tracker
 A Python + PySide6 desktop application that helps students track expenses, visualize spending, and automatically categorize expenses using AI.
 
 ## Features
